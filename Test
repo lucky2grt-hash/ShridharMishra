@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Test Page Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .test-button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .test-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Main Heading -->
+        <h1>Welcome to Your HTML Test Page</h1>
+        <p>This is a baseline HTML template designed for testing layouts, elements, and styles.</p>
+        
+        <hr>
+
+        <!-- Formatting and Text Elements -->
+        <h2>Text Formatting Test</h2>
+        <p>You can check normal text, <strong>bold text</strong>, <em>italicized text</em>, and <code>inline code snippets</code> here.</p>
+
+        <!-- List Test -->
+        <h2>Unordered List Test</h2>
+        <ul>
+            <li>First sample bullet item</li>
+            <li>Second sample bullet item with a <a href="https://www.w3schools.com" target="_blank">hyperlink to W3Schools</a></li>
+            <li>Third sample bullet item</li>
+        </ul>
+
+        <!-- Media Test -->
+        <h2>Image & Interactive Element Test</h2>
+        <p>Below is a placeholder image test:</p>
+        <img src="https://placeholder.com" alt="Placeholder Sample Image" style="max-width:100%; height:auto; border: 1px solid #ddd; margin-bottom: 15px;">
+
+        <br>
+
+        <!-- Button Test -->
+        <button class="test-button" onclick="alert('JavaScript Interaction Successful!')">Click Me to Test JS</button>
+    </div>
+
+</body>
+</html>
